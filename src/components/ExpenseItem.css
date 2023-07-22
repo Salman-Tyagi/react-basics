@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.expense-item {
+  background-color: #444;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  margin: 2% auto;
+  padding: 20px 30px;
+  border-radius: 35px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.expense-item--date {
+  font-size: 30px;
+}
+.expense-item--description {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+h2 {
+  font-size: 60px;
+  color: #fff;
+}
+.expense-item--price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #220f57;
+  padding: 21px 59px;
+  border: 3px solid#fff;
+  border-radius: 24px;
+}
