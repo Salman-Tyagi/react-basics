@@ -12,14 +12,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f7f7f7;
 }
 
-.container {
+/* .container {
   background-color: #393939;
   color: #767676;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px 30px;
-}
+} */
