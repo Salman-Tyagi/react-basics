@@ -1,0 +1,7 @@
+.expenses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1a1818;
+  padding: 20px;
+}

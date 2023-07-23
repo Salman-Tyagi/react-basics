@@ -3,11 +3,8 @@
   display: grid;
   grid-template-columns: auto 4fr;
   align-items: center;
-  gap: 6%;
-  margin: 2% auto;
+  gap: 2%;
   padding: 20px 30px;
-  border-radius: 35px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .expense-item--description {
@@ -17,7 +14,7 @@
 }
 
 .expense-item--title {
-  font-size: 60px;
+  font-size: 56px;
   margin: 20px 0;
   color: #fff;
 }
