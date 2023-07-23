@@ -1,10 +1,10 @@
 .expense-item {
   background-color: #444;
   display: grid;
-  grid-template-columns: auto 4fr;
+  grid-template-columns: 128px 1fr 96px;
   align-items: center;
   gap: 2%;
-  padding: 20px 30px;
+  padding: 1rem;
 }
 
 .expense-item--description {
@@ -14,16 +14,16 @@
 }
 
 .expense-item--title {
-  font-size: 56px;
+  font-size: 32px;
   margin: 20px 0;
   color: #fff;
 }
 .expense-item--price {
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
-  background-color: #220f57;
-  padding: 21px 59px;
+  background-color: #1d0256;
+  padding: 12px 36px;
   border: 3px solid#fff;
   border-radius: 24px;
 }
