@@ -1,30 +1,26 @@
-.input-form {
-  background-color: #8a64dc;
-  font-size: 1.5rem;
+.new-expense__controls {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 1rem;
-  font-weight: bold;
-  width: 900px;
-  border-radius: 1rem;
-  margin: 16px auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
-input {
-  width: 21rem;
-  height: 3rem;
-  border: none;
-  border-radius: 5px;
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
-.btn-submit {
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: #1d0256;
-  border: none;
-  color: white;
-  padding: 1.5rem 2.5rem;
-  border-radius: 12px;
-  margin-left: 686px;
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions {
+  text-align: right;
 }
