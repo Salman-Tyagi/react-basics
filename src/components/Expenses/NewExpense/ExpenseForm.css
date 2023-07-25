@@ -1,0 +1,30 @@
+.input-form {
+  background-color: #8a64dc;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 1rem;
+  font-weight: bold;
+  width: 900px;
+  border-radius: 1rem;
+  margin: 16px auto;
+}
+
+input {
+  width: 21rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #1d0256;
+  border: none;
+  color: white;
+  padding: 1.5rem 2.5rem;
+  border-radius: 12px;
+  margin-left: 686px;
+}
